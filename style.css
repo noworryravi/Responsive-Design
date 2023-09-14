@@ -32,6 +32,7 @@ body{
 }
 .nav-items a:hover{
     color: #018673;
+    transition: all 0.3s;
 }
 .nav-items button{
     color: white;
@@ -39,7 +40,14 @@ body{
     padding: 0.7rem 0.9rem;
     border-radius: 0.5rem;
     border: none;
-    font-weight: 500;
+    font-weight: 600;
+    border: 2px solid #018673;
+}
+.nav-items button:hover{
+    background-color: white;
+    color: #018673;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 .logo{
     margin-left: 4rem;
@@ -78,7 +86,16 @@ body{
     border-radius: 0.5rem;
     border: none;
     font-weight: 600;
+    border: 2px solid #018673;
+    
 }
+.left-content button:hover{
+    background-color: white;
+    color: #018673;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
 .right-content{
     width: 50vw;
     height: 100vh;
